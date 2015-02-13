@@ -17,6 +17,7 @@ a:hover{
 	margin:0 auto;
 	width:960px;
 	background: #C7F8CA;
+	border: 2px solid red;
 }
 .row{
 	background: #ccc;
@@ -47,12 +48,16 @@ a:hover{
 }
 .slader-wrap{
 	background: #FFE1FD;
+	padding: 20px 0;
 }
 .content-wrap{
-	background: #FFE1FD;
+	background: #D6D2FF;
+	padding: 20px 0 60px 0;
 }
 .footer-wrap{
 	background: #FFE1FD;
+	padding: 40px 0 40px 0;
+	border-top:1px solid #D9D7DB;
 }
 
 /*header*/
@@ -86,11 +91,11 @@ a:hover{
 }
 /*slider*/
 /*******************************************/
-.slader{
-
-	height: 483px;
+.slader-wrap img{
 	background: #D7D7AA;
-	margin: 20px auto;
+	margin: 0 auto;
+	border-radius:5px;
+	padding: 0;
 }
 
 /*content*/
@@ -100,8 +105,10 @@ a:hover{
 }
 
 .about{
-	height: 200px;
-	background: #334DFB;
+	position:relative;
+	right:0;
+	top:50%;
+	
 }
 /*footer*/
 /*******************************************/
@@ -133,6 +140,15 @@ a:hover{
 /*******************************************/
 @media screen and (max-width:959px){
 	.layout-center{
-		width:100%;
+		width:95%;
+	}
+	.slader-wrap img{
+		max-width:100%;
+		height:auto;
+		width: auto\9; /*ie 8*/
+	}
+	.layout-center{
+		margin: 0 20px;
 	}
 }
+
