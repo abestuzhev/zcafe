@@ -10,13 +10,15 @@
 	<div class="header-wrap">
 		<div class="layout-center header">
 			<img src="img/logo.png" alt="logo">
-			<ul class="nav">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Events</a></li>
-				<li><a href="#">service</a></li>
-				<li><a href="#">Job</a></li>
-				<li><a href="#">Contacts</a></li>
-			</ul>
+			<div class="float-center">
+				<ul class="nav">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Events</a></li>
+					<li><a href="#">service</a></li>
+					<li><a href="#">Job</a></li>
+					<li><a href="#">Contacts</a></li>
+				</ul>
+			</div>	
 		</div>
 	</div>
 	<!-- header end ======================= -->
@@ -49,14 +51,16 @@
 				</div>
 				
 				<div class="col-1-3">
-					<img class="about" src="img/tell-friends.jpg" alt="">
+					<div class="col-wrap">
+						<img class="about" src="img/tell-friends.jpg" alt="">
+					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-2-3"> <!-- col-2-3 start -->
 					<div class="services"> <!-- services start -->
 						<h2>Here you can find all services in one place</h2>
-						<div class="services-col1">
+						<div class="services-col">
 							<ul>
 								<li><a href="#">Broadband Internet PCs with modern LCD Flat-screens, Printers, Scanners, Webcam</a></li>
 								<li><a href="#">CD-RW/DVD-burner, Multi-card-reader, USB-Connectors</a></li>
@@ -65,27 +69,30 @@
 								<li><a href="#">Stabilized UPS with world-power outlets, 220V & 110V.</a></li>
 							</ul>
 						</div>
-						<div class="services-col2">
-							<ul>
+						<div class="services-col">
+							<ul class="indent">
 								<li><a href="#">Outdoor wireless connection available 24/7 (100m radius)</a></li>
-								<li><a href="#">Digital Photo Printer - connect your SD-card, SmartMedia, XD-picture Card, CompactFlash, MemoryStick or mobile phone and print the picture direct at our photo-lab-station (Printpix).
+								<li><a href="#">Digital Photo Printer - connect your SD-card, SmartMedia, XD-picture Card, CompactFlash, MemoryStick or mobile phone and print the picture direct at our photo-lab-station (Printpix).<br>
 	Of course you can also “unload” your camers and burn CD...</a></li>
+
 							</ul>
-							<a href="">All Services</a>
+							<a class="all all-services" href="#">All Services</a>
 						</div>
 					</div> <!-- services end -->
 				</div> <!-- col-2-3 end -->
 				
 				<div class="col-1-3"> <!-- col-1-3 start -->
-					<div class="news"> <!-- news start -->
-						<h2>Latest News</h2>
-						<p>21 February, 2012</p>
-						<p>
-							Duis autem vel eum iriure dolor in hendrerit tum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer in vulputate velit esse molestie consequat vel illum augue duis dolore.
-						</p>
-						<a href="#">Feugiat nulla facilisis at vero eros et accumsan et iusto...</a>
-						<a href="#">All News</a>
-					</div> <!-- news end -->
+					<div class="col-wrap">
+						<div class="news"> <!-- news start -->
+							<h2>Latest News</h2>
+							<time>21 February, 2012</time>
+							<p>
+								Duis autem vel eum iriure dolor in hendrerit tum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer in vulputate velit esse molestie consequat vel illum augue duis dolore.
+							</p>
+							<p class="vero"><a  href="#">Feugiat nulla facilisis at vero eros et accumsan et iusto...</a></p>
+							<p><a class="all all-news" href="#">All News</a></p>
+						</div> <!-- news end -->
+					</div> <!-- col-wrap -->
 				</div> <!-- col-1-3 end -->	
 			</div>
 		</div>
@@ -95,15 +102,21 @@
 	<!-- footer start ======================= -->
 	<div class="footer-wrap">
 		<div class="layout-center footer">
-			<div class="footer-logo"></div>
+			<div class="footer-logo"><img src="img/footer-logo.png" alt=""></div>
+			<div class="social">
+				<div class="social-icon">
+					<div class="soc fb"></div>
+					<div class="soc tw"></div>
+					<div class="soc ld"></div>
+					<div class="soc ub"></div>
+				</div>
+				© 2015 <a href="#"> Privacy Policy</a>
+			</div>
 			<div class="contact">
-				<p>© 2014 Interior TemplateMonster.com | Zerotheme.com</p>
+				<p>© 2015 Interior TemplateMonster.com | Zerotheme.com</p>
 				<p>Phone: +1 800 559 6580 Email: info@internetcafe.com</p>
 			</div>
-			<div class="social">
-				<div class="social-icon"></div>
-				<a href="#">© 2012 Privacy Policy</a>
-			</div>
+			
 		</div>
 	</div>
 	<!-- footer end ======================= -->
